@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(26, 27, 28);
+}
+.container{
+    background-color: rgb(44, 38, 38);
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    min-height: 80%;
+}
+h1{
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 6px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+    color: #209781;
+    font-family: 'Lobster', sans-serif;
+}
+.gender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:100px;
+    height: 100px;
+    width: 100%;
+}
+.pick{
+    position: relative;
+    width: 250px;
+    height: 100px;
+}
+label{
+    font-family: 'Prompt';
+    font-size: 35px;
+    color: #209781;
+}
+input[type="radio"]{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+input[type='radio']:checked:after{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: gray;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.radiobox-ufo{
+    cursor: pointer;
+}
+#female:hover + label{
+    color: #E9B64A;
+}
+#male{
+    position: relative;
+    left: 225px;
+}
+#male:hover + label{
+    color: #E9B64A;
+}
+.midBox{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 140px;
+    left: 40px;
+    width: 100%;
+    height: 290px;
+
+
+}
+.btnBox{
+    position: relative;
+    width: 370px;
+    height: 150px;
+
+}
+.calculateBtn{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    width: 300px;
+    height: 140px;
+}
+.opis{
+    font-family: Dm Sans;
+    font-size: 39px;
+    color: #209781;
+}
+.saveBtn {
+    width: 250px;
+    height: 70px;
+    background-color: #209781;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 30px;
+    border: 2px solid black;
+    filter: brightness(70%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: #E9B64A;
+}
+
+.saveBtn:hover {
+    background-color: #209781;
+    cursor: pointer;
+    border: solid rgb(86, 86, 203);
+    filter: brightness(100%);
+}
+.footer{
+    top:400px;
+    left: 19%;
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.inputStyle{
+    width: 250px;
+    height: 60px;
+    background-color: #209781;
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 3px;
+    font-family: Dm Sans; 
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+li{
+    font-size: 20px;
+    color: #57ccb6;
+}
+.bmiAfter{
+    position: relative;
+    top: 380px;
+    left: 20%;
+    width: 400px;
+    height: 50px;
+    font-size: 45px;
+    font-family:Dm Sans;
+    color:#209781;
+}
+.ulThis{
+    color: #E9B64A;
+}
+

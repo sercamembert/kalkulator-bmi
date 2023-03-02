@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkualtor Bmi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Prompt&amp;subset=latin-ext" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="./dist/css/radiobox.min.css" />
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+    <header><h1>Kalkulator BMI</h1></header>
+<main>
+    <div class="container">
+<section>
+        <div class="gender">
+            <div class="pick">
+            <input type="radio" id="female" name="genderType" value="female" class="radiobox-ufo"/>
+            <label for="radio">Kobieta</label>
+        </div>
+        <div class="pick">
+
+            <input type="radio" id="male" name="genderType" value="male" class="radiobox-ufo"/>
+            <label for="radio">Mężczyzna</label>
+        </div>
+        </div>
+</section>
+<section>
+        <div class="midBox">
+            <div class="btnBox">
+                
+                    <span class="opis">Wzrost w cm:</span><br> <input type="text"  id="wzrost"class="inputStyle">
+            </div>
+            <div class="btnBox">
+                
+                    <span class="opis">Waga w kg:</span> <br><input type="text" id="waga" class="inputStyle">
+                
+            </div>
+        </div>
+            <div class="calculateBtn">
+                <button id="saveBtn" class="saveBtn">Oblicz Bmi</button>
+            
+            </div>
+            <div class="bmiAfter" id="bmiA">Twoje bmi: </div>
+            <div class="footer">
+                <div class="list">
+                    <ul>
+                        <li id="l1">&lt;16,0 - wygłodzenie</li>
+                        <li id="l2">16,0 – 16,9	wychudzenie</li>
+                        <li id="l3">17,0 - 18,5	niedowaga</li>
+                        <li id="l4">18,5–24,9 waga prawidłowa</li>
+                        <li id="l5">25,0–29,9 nadwaga</li>
+                        <li id="l6">30,0–34,9 otyłość I stopnia</li>
+                        <li id="l7">35,0–39,9 otyłość II stopnia</li>
+                        <li id="l8">&gt;40 - otyłość otyłość III stopnia</li>
+                    </ul>
+                </div>
+            </div>
+        
+</section>
+    </div>
+</main>
+<script src="jquery-3.2.1.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
